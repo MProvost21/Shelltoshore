@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Link, useNavigate, Routes, Route, useLocation } from "react-router-dom";
 import MagicLoginPage from "./MagicLoginPage";
 import { useAuth } from "./AuthContext";
